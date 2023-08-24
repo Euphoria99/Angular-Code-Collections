@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { ComponentsModule } from 'src/app/shared/components/components.module';
+import { PrimengModule } from 'src/app/shared/modules/primeng.module';
 
 
 @NgModule({
@@ -13,10 +14,11 @@ import { ComponentsModule } from 'src/app/shared/components/components.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    PrimengModule
   ],
   exports:[
-    HomeComponent
-  ]
+    HomeComponent,
+]
 })
 export class HomeModule { }

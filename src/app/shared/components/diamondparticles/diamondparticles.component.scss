@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+      136deg,
+      #9b59b6,
+      #4484ce,
+      #1ad7c0,
+      #ff9b11,
+      #ff7f7f,
+      #ecf0f1
+    );
+    background-size: 1200% 1200%;
+    animation: color 70s ease infinite;
+  }
+  
+  @keyframes color {
+    0% {
+      background-position: 0% 7%;
+    }
+    50% {
+      background-position: 100% 94%;
+    }
+    100% {
+      background-position: 0% 7%;
+    }
+  }
+  
+  //first
+  
+  #bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  

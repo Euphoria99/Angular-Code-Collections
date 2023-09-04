@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { DiamondparticlesComponent } from './diamondparticles/diamondparticles.component';
+import { NgParticlesModule } from 'ng-particles';
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
+  declarations: [
+    DiamondparticlesComponent
   ],
-  exports:[]
+  imports: [
+    CommonModule,
+    NgParticlesModule
+  ],
+  exports:[NgParticlesModule, DiamondparticlesComponent]
 })
 export class ComponentsModule { }

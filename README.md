@@ -9,3 +9,7 @@ gradientBG : changing background colors
 animatedParticles : CSS animated particles like milkyway effect
 
 animGradientBG: Animated particles and Changing Background combined
+
+vivusAnim: Vivus Handwriting animation
+
+tsparticles: 3D floating objects

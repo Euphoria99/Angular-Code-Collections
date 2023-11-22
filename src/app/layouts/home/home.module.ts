@@ -5,11 +5,15 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { ComponentsModule } from 'src/app/shared/components/components.module';
 import { PrimengModule } from 'src/app/shared/modules/primeng.module';
+import { ComponentOneComponent } from './component-one/component-one.component';
+import { ComponentTwoComponent } from './component-two/component-two.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    ComponentOneComponent,
+    ComponentTwoComponent
   ],
   imports: [
     CommonModule,

@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./component-one.component.scss']
 })
 export class ComponentOneComponent {
-
+  title = 'wayne';
+  data = "bruce"
   name="somename";
   age=0;
 
